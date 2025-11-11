@@ -1,4 +1,20 @@
 @media (max-width: 550px) {
+  .banner {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .muctieu-thongtin {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .muctieu {
+    padding: 10px;
+  }
+  .thongtincanhan {
+    padding: 10px;
+  }
   /* ICON */
   .icon {
     display: grid;
@@ -63,7 +79,8 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: repeat(6, auto);
-    gap: 40px;
+    row-gap: 40px;
+    column-gap: 5px;
     margin-top: 40px;
     text-align: start;
   }
@@ -97,6 +114,8 @@
     grid-template-columns: auto 1fr auto;
     grid-template-rows: repeat(6, auto);
     background-color: #f7f7f7;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .chungchi-giaithuong1 {
@@ -153,6 +172,8 @@
     grid-template-columns: auto 1fr auto;
     grid-template-rows: repeat(4, auto);
     font-size: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .du-an1 {
     grid-area: 1 / 2 / 2 / 3;
@@ -172,5 +193,7 @@
   .thongtinlh {
     grid-template-columns: auto 100px 100px 100px auto;
     font-size: 70%;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
