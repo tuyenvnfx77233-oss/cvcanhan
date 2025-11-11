@@ -1,0 +1,122 @@
+.container {
+  margin: 40px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  gap: 15px;
+  padding: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.goals {
+  background-color: #faf8f8;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.scopes {
+  background-color: #faf8f8;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.team {
+  background-color: #faf8f8;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.primary {
+  background-color: #faf8f8;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.timeline {
+  background-color: #faf8f8;
+  grid-area: 1 / 3 / 3 / 4;
+}
+
+.noi-dung-goals {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.noi-dung-team {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.noi-dung-primary {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.noi-dung-timeline {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.noi-dung-scopes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.noi-dung-scopes-1 {
+  margin: 10px;
+}
+
+.icon {
+  display: grid;
+  place-content: center;
+  border-bottom: 1.5px solid rgb(88, 212, 206, 0.2);
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icon-1 {
+  display: grid;
+  place-content: center;
+  border-bottom: 1.5px solid rgb(88, 212, 206, 0.2);
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.noidung {
+  display: grid;
+  text-align: start;
+  border-bottom: 1.5px solid rgb(88, 212, 206, 0.2);
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.question-icon {
+  background-color: rgb(58, 50, 50);
+  color: white;
+  padding: 8px 8px;
+  border-radius: 50%;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.number-icon {
+  background-color: #b46ddd;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 50%;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+}
+
+p {
+  margin: 10px;
+}
+
+.tieu-de {
+  margin: 10px;
+  color: blue;
+  border-bottom: 2px solid rgb(88, 212, 206, 0.3);
+}

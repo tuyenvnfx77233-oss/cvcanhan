@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+  .container {
+    margin: 40px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .goals {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .scopes {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .team {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .primary {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .timeline {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+
+  .noi-dung-goals {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .noi-dung-team {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+  }
+
+  .noi-dung-primary {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .noi-dung-timeline {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(14, auto);
+  }
+
+  .noi-dung-scopes {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .icon {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: none;
+  }
+
+  .icon-1 {
+    display: grid;
+    justify-content: start;
+    border-bottom: none;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  .noidung {
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+}

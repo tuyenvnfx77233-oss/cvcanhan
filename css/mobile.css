@@ -1,0 +1,176 @@
+@media (max-width: 550px) {
+  /* ICON */
+  .icon {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: repeat(4, auto);
+    text-align: start;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    font-size: 100%;
+  }
+
+  .name-fullstack {
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    color: white;
+  }
+
+  .thongtin {
+    grid-area: 1 / 2 / 2 / 3;
+    padding-bottom: 10px;
+  }
+
+  .lylich {
+    grid-area: 2 / 2 / 3 / 3;
+    padding-bottom: 10px;
+  }
+  .chungchi {
+    grid-area: 3 / 2 / 4 / 3;
+    border: none;
+    padding-bottom: 10px;
+  }
+  .duan {
+    grid-area: 4 / 2 / 5 / 3;
+    padding-bottom: 10px;
+  }
+  .hovaten {
+    display: none;
+    /* grid-area: 1 / 4;
+    font-size: 25px; */
+  }
+
+  .fullstack1 {
+    display: none;
+    /* font-size: 12px;
+    color: #383838;
+  */
+  }
+
+  .avatar {
+    display: none;
+  }
+
+  /* MỤC TIÊU - THÔNG TIN */
+  .muctieu-thongtin {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* PROFILE */
+  .profile {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: repeat(6, auto);
+    gap: 40px;
+    margin-top: 40px;
+    text-align: start;
+  }
+  .kinhnghiem {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .hocvan {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .hoatdong {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+
+  .sothich {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+
+  .ngonngu {
+    grid-area: 5 / 2 / 6 / 3;
+  }
+
+  .kynang {
+    grid-area: 6 / 2 / 7 / 3;
+  }
+
+  /* CHỨNG CHỈ - GIẢI THƯỞNG */
+  .chungchi-giaithuong {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: repeat(6, auto);
+    background-color: #f7f7f7;
+  }
+
+  .chungchi-giaithuong1 {
+    grid-area: 1 / 2 / 2 / 3;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .img1 {
+    grid-area: 2 / 2 / 3 / 3;
+    border: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 0;
+  }
+
+  .chungchi1 {
+    grid-area: 3 / 2 / 4 / 3;
+    border: none;
+    padding-top: 10px;
+  }
+
+  .img2 {
+    grid-area: 4 / 2 / 5 / 3;
+    border-top: 1px solid #d6c08d;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .chungchi2 {
+    grid-area: 5 / 2 / 6 / 3;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .img3 {
+    grid-area: 6 / 2 / 7 / 3;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 10px;
+    border-top: 1px solid #d6c08d;
+  }
+
+  .chungchi3 {
+    grid-area: 7 / 2 / 8 / 3;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-top: none;
+  }
+
+  /* DỰ ÁN */
+  .du-an {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: repeat(4, auto);
+    font-size: 100%;
+  }
+  .du-an1 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .cvcanhan {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .webthucung {
+    grid-area: 3 / 2 / 4 / 3;
+    margin-top: 20px;
+  }
+  .webtintuc {
+    grid-area: 4 / 2 / 5 / 3;
+    margin-top: 20px;
+  }
+  /* THÔNG TIN LIÊN HỆ */
+  .thongtinlh {
+    grid-template-columns: auto 100px 100px 100px auto;
+    font-size: 70%;
+  }
+}
