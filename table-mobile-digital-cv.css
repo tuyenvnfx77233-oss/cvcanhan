@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .container {
-    margin: 40px;
+    margin: 5px;
     background-color: blue;
     display: grid;
     grid-template-columns: 1fr;
@@ -73,3 +73,4 @@
     padding-bottom: 10px;
   }
 }
+
